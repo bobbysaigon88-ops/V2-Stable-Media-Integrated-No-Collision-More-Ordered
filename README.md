@@ -1,7 +1,7 @@
-V2 Stable — Media Integrated / No Collision / More Ordered
+V2 Stable — Media Integrated / No Collision / More Ordered / Meta Data Positioned
 
 Summary:
-Transitioned from placeholder-based V1 rendering into a fully integrated media system using a single CMS-bound image architecture. Portrait lane behavior restored and constrained correctly within generated card geometry. Collision logic stabilized through refined overlap detection and increased placement rhythm constraints.
+Transitioned from placeholder-based V1 rendering into a fully integrated media system using a single CMS-bound image architecture. Portrait lane behavior restored and constrained correctly within generated card geometry. Collision logic stabilized through refined overlap detection and increased placement rhythm constraints. Added selector controls for top and bottom meta data positioning,
 
 Tradeoff:
 System now favors stronger editorial order and visible baseline alignment over the more chaotic organic emergence present in V1. The layout feels more architectural and deterministic, with reduced spatial tension and fewer edge-case anomalies.
@@ -23,7 +23,6 @@ Current State:
 
 Remaining Exploration:
 - Recovering more organic asymmetry without reintroducing collision
-- Protected metadata gutter system
 - Editorial rhythm tuning
 - Controlled entropy vs structural order
 - Visibility of the underlying algorithm
